@@ -146,7 +146,7 @@ body{
 
 @keyframes moveit3 {
   0%,100%{
-    transform: translate(30%,0) scale(0.9);
+    transform: translate(30%,0) scale(0.8);
   }
   50%{
     transform: translate(-50%,0) scale(0.4);

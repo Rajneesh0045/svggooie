@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SVG Gooie 1</title>
+    <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">
+    <script src="jquery-2.1.4.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+    <div class="section section1">
+      <div class="loader1">
+        <div class="lod1"></div>
+        <div class="lod2"></div>
+      </div>
+    </div>
+
+    <div class="section section2">
+      <div class="loader2">
+        <div class="lod1"></div>
+        <div class="lod2"></div>
+      </div>
+    </div>
+
+    <div class="section section3">
+      <div class="loader3">
+        <div class="lod1"></div>
+        <div class="lod2"></div>
+      </div>
+    </div>
+    </div>
+
+
+    <svg>
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur stdDeviation="10" in="SourceGraphic" result="blur">
+          </feGaussianBlur>
+          <feColorMatrix in="blur" result="colormatrix"
+       type="matrix"
+       values="1 0 0 0 0
+               0 1 0 0 0
+               0 0 1 0 0
+               0 0 0 18 -6" />
+        </filter>
+        <feBlend in="SourceGraphic" in2="colormatrix" />
+      </defs>
+    </svg>
+  </body>
+</html>

@@ -43,8 +43,8 @@ body{
 
 .loader1 .lod1{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   top: 35%;
   left: 50%;
@@ -54,8 +54,8 @@ body{
 
 .loader1 .lod2{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   top: 35%;
   left: 50%;
@@ -82,8 +82,8 @@ body{
 
 .loader2 .lod1{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   top: 35%;
   left: 45%;
@@ -94,8 +94,8 @@ body{
 
 .loader2 .lod2{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   top: 35%;
   left: 50%;
@@ -124,8 +124,8 @@ body{
 
 .loader3 .lod1{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   top: 35%;
   left: 45%;
@@ -135,8 +135,8 @@ body{
 
 .loader3 .lod2{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   top: 35%;
   left: 50%;

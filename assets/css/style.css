@@ -1,0 +1,165 @@
+body{
+  background: black;
+  margin: 0;
+}
+
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section{
+  width: 100%;
+  height: 600px;
+}
+.section1{
+  background-color: lightblue;}
+.section2{
+  background-color: blueviolet;}
+.section3{
+  background-color: orangered;}
+
+.loader1{
+  width: 100%;
+  height: 100%;
+  filter: url(#goo);
+  position: relative;
+}
+.loader2{
+  width: 100%;
+  height: 100%;
+  filter: url(#goo);
+  position: relative;
+}
+.loader3{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  filter: url(#goo);
+}
+
+
+/* The first loader*/
+
+.loader1 .lod1{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  top: 35%;
+  left: 50%;
+  background: white;
+  animation: moveit1 2s ease-in-out infinite;
+}
+
+.loader1 .lod2{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  top: 35%;
+  left: 50%;
+  background: white;
+  animation: moveit1 3s ease-in-out infinite;
+}
+
+
+@keyframes moveit1 {
+  0%{
+    transform: translate(-50%,0) scale(0.3);
+  }
+  50%{
+    transform: translate(75%,0) scale(0.8);
+  }
+  100%{
+    transform: translate(-50%,0) scale(0.3);
+  }
+}
+
+
+
+/*The Second Loader */
+
+.loader2 .lod1{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  top: 35%;
+  left: 45%;
+  background: white;
+  transform: translate(-50%,0);
+  animation: moveit2 2s ease-in-out infinite;
+}
+
+.loader2 .lod2{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  top: 35%;
+  left: 50%;
+  background: white;
+  animation: moveit2 3s ease-in-out infinite;
+}
+
+
+@keyframes moveit2 {
+  0%{
+    transform: translate(-50%,0) scale(0.3);
+  }
+  50%{
+    transform: translate(75%,0) scale(0.8);
+  }
+  100%{
+    transform: translate(-50%,0) scale(0.3);
+  }
+}
+
+
+
+
+/*The third loader*/
+
+
+.loader3 .lod1{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  top: 35%;
+  left: 45%;
+  background: white;
+  animation: moveit3 2s ease-in-out infinite;
+}
+
+.loader3 .lod2{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  top: 35%;
+  left: 50%;
+  background: white;
+  animation: moveit4 2s ease-in-out infinite;
+}
+
+@keyframes moveit3 {
+  0%,100%{
+    transform: translate(30%,0) scale(0.9);
+  }
+  50%{
+    transform: translate(-50%,0) scale(0.4);
+  }
+}
+@keyframes moveit4 {
+  0%, 100%{
+    transform: translate(-130%,0) scale(0.4);
+  }
+  50%{
+    transform: translate(50%,0) scale(0.8);
+  }
+}
+
+
+/*The End*/
